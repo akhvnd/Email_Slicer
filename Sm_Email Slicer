@@ -25,11 +25,7 @@ print(f"Your username is {username} & domain is {domain}")
 *
 *
 .partition(match_item)- here we partition which direcly seprates the string as it get the matched item.
-                        it seprate the string as before @ and after @. 
-                        
-
-
-
+                        it seprate the string as before @ and after @. before @ goes to username and after @ goes to domain
 
 
 
