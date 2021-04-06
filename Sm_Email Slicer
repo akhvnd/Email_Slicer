@@ -1,4 +1,5 @@
 *
+Simple Email Python program.
 *
 email = input("Enter Your Email: ").strip()
 
@@ -12,3 +13,26 @@ input()-  input function to get the input from the user in the form of string.
 strip()-  strip function will remove any additional & unwanted spacing on both sides of strings.
 f "  " -  F string  allows us to directly place our variables in the output string.
    @   -  is used as a serating option which seprate username and domain.
+
+
+
+*
+Compact code
+*
+username,  _ , domain = input('Enter Your E-mail:  ').strip().partition("@")
+
+print(f"Your username is {username} & domain is {domain}")
+*
+*
+.partition(match_item)- here we partition which direcly seprates the string as it get the matched item.
+                        it seprate the string as before @ and after @. 
+                        
+
+
+
+
+
+
+
+
+
