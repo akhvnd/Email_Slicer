@@ -16,6 +16,8 @@ f "  " -  F string  allows us to directly place our variables in the output stri
 
 
 
+
+
 *
 Compact code
 *
@@ -26,6 +28,26 @@ print(f"Your username is {username} & domain is {domain}")
 *
 .partition(match_item)- here we partition which direcly seprates the string as it get the matched item.
                         it seprate the string as before @ and after @. before @ goes to username and after @ goes to domain
+
+
+
+
+
+
+*
+using user defined function
+*
+def email_slicer(email):
+    username,  _ , domain = input('Enter Your E-mail:  ').strip().partition("@")
+    return f"Your username is {username} & domain is {domain}"
+    
+user_input = input('Enter your E-mail:  ')
+
+print(email_slicer(user_input))
+*
+*
+
+
 
 
 
