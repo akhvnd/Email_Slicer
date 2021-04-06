@@ -51,6 +51,17 @@ print(email_slicer(user_input))
 
 
 
+*
+Using Index position
+*
+email= input('Enter your email:  ')
+
+a= email.partition('@')
+
+print(f"Your username is {a[0]} & domain is {a[-1]}")
+*
+*
+Here we have used the Index position to call the value. before @ value position is 0   and    after @ value position used is -1
 
 
 
