@@ -1,0 +1,14 @@
+*
+*
+email = input("Enter Your Email: ").strip()
+
+username = email[:email.index('@')]
+domain = email[email.index('@') + 1:]
+
+print(f"Your username is {username} & domain is {domain}")
+*
+*
+input()-  input function to get the input from the user in the form of string.
+strip()-  strip function will remove any additional & unwanted spacing on both sides of strings.
+f "  " -  F string  allows us to directly place our variables in the output string.
+   @   -  is used as a serating option which seprate username and domain.
